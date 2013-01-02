@@ -34,7 +34,7 @@ class Encoder {
 
     }
     string encode(string data) {
-        return "asd";
+        return "asdasd";
 
     }
 }
