@@ -1,6 +1,5 @@
 import std.stdio;
 
-
 class Set(T) {
 
     bool[T] dict;
@@ -19,10 +18,6 @@ class Set(T) {
 
     //alias dict this;
 }
-
-
-
-
 
 class Encoder {
     this() {
@@ -60,7 +55,6 @@ class HuffmanEncoder : Encoder {
         }
     }
 }
-
 
 void main(string args[]) {
 
