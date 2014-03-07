@@ -49,7 +49,7 @@ class HuffmanEncoder : Encoder {
         super();
     }
 
-    void analyze(string data) {
+    override void analyze(string data) {
         // first pass
         data_len = data.length;
         foreach(c; data) {

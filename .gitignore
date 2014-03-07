@@ -1,2 +1,4 @@
 *.o
 huffman
+*.obj
+*.exe
